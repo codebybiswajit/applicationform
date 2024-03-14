@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    margin-left: 20em;
+    margin-right: 20em;
+    margin-top: 3em;
+    margin-bottom: 3em;
+    font-size: 1em;
+    background: rgba(24, 53, 79, 0.831);
+
+}
+header{
+    text-align: center;
+    font-size: 4em;
+    color: white;
+}
+.entirediv{
+    height: 100%;
+    width: 100%;
+    padding: 2em;
+    background: rgba(255, 255, 255, 0.44);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4.9px);
+    -webkit-backdrop-filter: blur(4.9px);
+    border: 1px solid rgba(255, 255, 255, 0.9);
+}
+.head{
+    background-color: rgb(49, 91, 105);
+    padding: .5em;
+    margin-top: .5em;
+    margin-bottom: .5em;
+    margin-left: .5em;
+}
+.inside_fiirstdiv{
+    padding-left:2em ;
+    font-size: 1em;
+    align-items: center;
+}
+
+input[type = text]{
+    width: 80%;
+    height: 1.8em;
+}
+input[type = date],
+input[type = tel],
+input[type = number],
+input[type = text],
+input[type = email],
+textarea
+{
+
+    background: transparent;
+    border: none;
+    width: 100%;
+    border-bottom: 1px solid #000000;
+    height: 2em;
+}
+.name{
+    display: flex;
+    align-content: center;
+    justify-content:space-between;
+    padding-top: 1em;
+}
+p{
+    padding: 0;
+    margin: 0;
+}
+th,tr,td,thead,tbody,table{
+    color: black;
+    padding: 0;
+    border: 1px black solid;
+    border-collapse: collapse;
+}
+td{
+    width: 10%;
+    padding-top: 1em;
+    padding-right: 4em;
+    padding-bottom: 2em;
+}
+.first_td{
+    margin-left: .5em;
+}
+textarea{
+    padding-top: .5em;
+    resize: none;
+    overflow:hidden;
+    width: 100%;
+}
+table{
+    margin-left:2em ;
+}
+
+.in1,.in2{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    width: 50%;
+    padding: 5px;
+}
+.flex{
+    display: flex;
+}
+.inline1{
+    padding-left: 5em;
+}
+.indiv{
+    width: 100%;
+}
+.x{
+    padding-left:1.9em;
+    padding-bottom:0em;
+    padding-top:0em;
+}
+.insidesecond table{
+    margin: 0;
+}
+footer{
+    padding: 2em;
+    padding-right: 0;
+}
+.name1{
+    display: flex;
+    justify-content: space-between;
+}
+.xyz{
+    display: flex;
+    justify-content:space-between;
+    align-content: center;
+}
+.third_div{
+    padding: 0;
+}
+.inner_thirddiv{
+    padding: 2em;
+}
+label{
+    padding: 0;
+    margin: 0;
+}

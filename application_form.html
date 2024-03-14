@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h2>Application Form</h2>
+    </header>
+    <div class="entirediv">
+        <div class="first_div">
+            <h3 class="head">A. General Questions</h3>
+            <div class="inside_fiirstdiv">
+                <div class="name">
+                    <div class="name-inside">
+                        <p class="temp">Proposed Insured's Name: </p>
+                        <p class="temp">(Please use capital letter)</p>
+                    </div>
+                    <input type="text" id="name" name="name" required
+                        style="background: white; border-radius: .5em; border: none;">
+                </div>
+                <div class="name">
+                    <div class="in1">
+                        <label for="birthDate">Birth Date:</label>
+                        <input type="date" id="birthDate" name="birthDate" required>
+                    </div>
+                    <div class="in2">
+                        <p>Gender: </p>&nbsp;&nbsp;&nbsp;&nbsp;
+                        <input type="checkbox" name="gender" id="">
+                        <p>Male</p>&nbsp;&nbsp;&nbsp;&nbsp;
+                        <input type="checkbox" name="gender" id="">
+                        Female
+                    </div>
+                </div>
+
+                <div class="name">
+                    <label for="address" style="padding-left: 1px;">Address:</label>
+                    <textarea id="address" name="address" rows="30" cols="300" required></textarea>
+                </div>
+                <div class="name">
+                    <div class="in1">
+                        <label for="phoneNumber">Phone Number:</label>
+                        <input type="tel" id="phoneNumber" name="phoneNumber" required>
+                    </div>
+                    <div class="in2">
+                        <label for="email_address">Email Address:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                </div>
+                <div class="name">
+
+                    <div class="in1">
+                        <label for="idNumber">ID Number:</label>
+                        <input type="text" id="idNumber" name="idNumber" required>
+                    </div>
+                    <div class="in2">
+                        <label for="socialSecurityNumber">Social Security Number:</label>
+                        <input type="text" id="socialSecurityNumber" name="socialSecurityNumber" required>
+                    </div>
+                </div>
+                <div class="name2">
+                    &nbsp;Status:
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input
+                        type="checkbox">Single&nbsp;&nbsp;&nbsp;
+                    <input type="checkbox">Married&nbsp;&nbsp;&nbsp;
+                    <input type="checkbox">Divorced
+                </div>
+                <div class="name">
+                    <div class="in1">
+                        <label for="occupation">Occupation:</label>
+                        <input type="text" id="occupation" name="occupation" required>
+                    </div>
+                    <div class="in2">
+                        <div class="indiv">
+                            <label for="retiree" style="padding-right: 2px;">Are you a retiree?</label>
+                        </div>
+                        <label for="retireeYes" class="inline">Yes</label>
+                        <input type="checkbox" id="retireeYes" name="retiree" value="yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <label for="retireeNo" class="inline">No</label>
+                        <input type="checkbox" id="retireeNo" name="retiree" value="no" required>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="second_div">
+            <h3 class="head">B. Type of Health Coverage</h3>
+            <div class="inside_fiirstdiv insidesecond">
+                <table class="first_tb">
+                    <tr class="first_tr">
+                        <td class="first_td">Employee:<input type="checkbox">Yes<input type="checkbox">No<br>Plan
+                            Choice:</td>
+                        <td class="first_td">Spouse: <input type="checkbox">Yes <input type="checkbox">No<br>Plan
+                            Choice:</td>
+                        <td class="first_td">Children:<input type="checkbox">Yes<input type="checkbox">No<br>Plan
+                            Choice:</td>
+                    </tr>
+                </table>
+            </div>
+        
+        <p style="padding-left: 2em;padding-top: .5em;padding-bottom: .5em;">Complete if Spouse/Children are Proposed
+            for Insurance:</p>
+        <table class="secondtbl">
+            <thead>
+                <tr class="secondtr">
+                    <th>Name</th>
+                    <th>SSN No.</th>
+                    <th>Relationship to <p>Proposed insured</p>
+                    </th>
+                    <th>Birth<p>date</p>
+                    </th>
+                    <th>Age</th>
+                    <th>Sex</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+        <div class="third_div">
+            <h3 class="head">C. The Policy</h3>
+            <div class="inner_thirddiv">
+            
+            <div class="name" >
+                <div class="in1" style="width: 100%; justify-content: center;">
+                    <label for="units" style="width: 20%;">Units :</label>
+                    <input type="text" style="width: 80%;">
+                </div>
+                <div class="in2" style="width: 100%;">
+                    <label for="annualpremium" style="width: 50%; float:left;"> Annual Premimum : </label>
+                    <input type="text" style="width: 50%;">
+                </div>
+            </div><br>
+            <div class="xyz">
+                <label for="payment">&nbsp;Payment Mode :</label>
+
+                <label><input type="checkbox" name="">Annual</label>
+
+                <label><input type="checkbox" name="">Semi Annual</label>
+
+                <label><input type="checkbox" name="">Monthly PAT(Complete Card)</label>
+            </div>
+            <div class="in1" style="width: 100%;">
+                <label for="" style="width: 30%;">Cash with application : $</label><input type="text"
+                    style="width:100%;">
+            </div>
+            <div class="in1" style="width: 100%;"><label for=""style=" width: 35%">Planned model premium :
+                $</label><input type="text" style="width:100%;"></div>
+            </div>
+        </div>
+        <footer>
+            <div class="name1">
+                <div class="in3">
+                    <h3>Terms & Conditions</h3>
+                    <p style="width: 70%;">
+                        Improvement should be measured regularly and assessed in order for you to know what is
+                        beneficial or
+                        what is
+                        not This will help you set new targets
+                    </p>
+                </div>
+                <div class="sign " style="width: 70%;">
+                    <label for="sign"> Signature</label>
+                    <input type="text" name="sign" style="background: white;  border: none; margin: 5px;">
+                    <div class="in1">
+                        <label for="Date">Date:</label>
+                        <input type="date" id="birthDate" name="birthDate" required style="width:100%;">
+                    </div>
+
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
